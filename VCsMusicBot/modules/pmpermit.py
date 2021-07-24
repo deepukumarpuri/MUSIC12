@@ -17,7 +17,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "Hi there, This is a music assistant service of @VCsMusicBot.\n\n ❗️ Rules:\n   - No chatting allowed\n   - No spam allowed \n\n 👉 **SEND GROUP INVITE LINK OR USERNAME IF USERBOT CAN'T JOIN YOUR GROUP.**\n\n ⚠️ Disclamer: If you are sending a message here it means admin from @zautesChat will see your message and join chat.\n    - Don't add this user to secret groups.\n   - Don't Share private info here.\n\n**Feel Free to Contact Us @ZauteBot.\n\nDeploy your own Bot from** https://github.com/LushaiMusic/VCsMusicBot",
+                "Hi there, This is a music assistant service of @GROUPMUSICPLAYBOT.\n\n ❗️ Rules:\n   - No chatting allowed\n   - No spam allowed \n\n 👉 **SEND ONLY CHANNEL INVITE LINK OR USERNAME IF USERBOT JOIN YOUR IN CHANNEL FOR MUSIC PLAYING IN 24 HOUR.**\n\n WATCH THIS VIDEO TO KNOW HOW TO PLAY MUSIC IN CHANNEL LINK :- **\n\n ⚠️ Disclamer:- YOU NOT WATCH MY VIDEO I DON'T JOIN YOUR CHANNEL. WATCH VIDEO AND SUBCRIBE MY CHANNEL AND SEND SCREENSHOT ME I JOIN YOUR CHANNEL IN 24 HOUR.VIDEO LINK :- MORE HELP CONTACT :- @DKBOTZHELP",
             )
             return
 
