@@ -34,7 +34,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @DKBOTZHELP to your make admin Group and message bot helper not join my group help me</b>",
+            "\n\nOr manually add @GROUP_MUSIC_PLAY_BOT_HELPER to your make admin Group and message bot helper not join my group help me</b>",
         )
         return
     await message.reply_text(
@@ -109,7 +109,7 @@ async def addcchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            "\n\nOr manually add @DKBOTZHELP to your make admin Group and message bot helper not join my group help me</b>",
+            "\n\nOr manually add @GROUP_MUSIC_PLAY_BOT_HELPER to your make admin Group and message bot helper not join my group help me</b>",
         )
         return
     await message.reply_text(
