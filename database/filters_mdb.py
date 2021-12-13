@@ -1,5 +1,5 @@
 import pymongo
-from DKMusic.config import DATABASE_URI, DATABASE_NAME
+from VCsMusicBot.config import DATABASE_URI, DATABASE_NAME
 import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
