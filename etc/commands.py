@@ -8,7 +8,7 @@ from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from database.ia_filterdb import Media, get_file_details, unpack_new_file_id
 from database.users_chats_db import db
-from DKMusic.config import ADMINS, LOG_CHANNEL
+from VCsMusicBot.config import ADMINS, LOG_CHANNEL
 from utils import get_size, is_subscribed, temp
 import re
 logger = logging.getLogger(__name__)
