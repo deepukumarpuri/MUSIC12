@@ -3,7 +3,7 @@ from utils import temp
 from pyrogram.types import Message
 from database.users_chats_db import db
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from DKMusic.config import SUPPORT_CHAT
+from VCsMusicBot.config import SUPPORT_GROUP
 async def banned_users(_, client, message: Message):
     return (
         message.from_user is not None or not message.sender_chat
