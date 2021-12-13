@@ -30,4 +30,5 @@ ffmpeg-python
 requests
 ytthumb
 pyrogram
+imdbpy
 
