@@ -7,13 +7,13 @@ from pyrogram import Client, filters
 from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from database.ia_filterdb import Media, get_file_details, unpack_new_file_id
-from radio.database import db
-from config import ADMINS, AUTH_CHANNEL, LOG_CHANNEL, PICS, OWNER_NAME
+from database.users_chats_db import db
+from VCsMusicBot.config import ADMINS, AUTH_CHANNEL, LOG_CHANNEL, PICS, OWNER_NAME
 from utils import get_size, is_subscribed, temp
 import re
 from radio import __version__
-from radio.decorators import sudo_users_only
-from radio.filters import command
+from VCsMusicBot.helpers.decorators import sudo_users_only
+from VCsMusicBot.helpers.filters import command
 from pyrogram import Client, filters
 from pyrogram import __version__ as pyrover
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
