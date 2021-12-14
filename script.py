@@ -1,7 +1,3 @@
-import os
-from config import ALIVE_NAME, BOT_NAME, BOT_USERNAME, GROUP_SUPPORT, OWNER_NAME, ASSISTANT_USERNAME, ASSISTANT_NAME, UPDATES_CHANNEL, RADIO_BOT
-from radio import __version__
-
 class Script(object):
     START_TXT = """✨ **Welcome {message.from_user.mention()} !**\n
 ✨ **Hello, I Am a Telegram Most Powerful [{RADIO_BOT}](https://t.me/{BOT_USERNAME}).**\n\n💭 **I Was Created To Play Radio in Group Voice Chats Easily.**\n\n❔ **To Find Out How To Use Me, Press The Help Button Below** 👇🏻\n Must Be Read Terms & Condition For Bot Adding in Your Group
